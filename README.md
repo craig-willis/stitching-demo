@@ -1,6 +1,9 @@
-# stitching-demo
-Demonstration of TERRA-REF image stitching process
+# TERRA-REF image stitching demonstration
 
+Prototype notebook to demonstrate TERRA-REF image stitching process.  
+
+
+The notebook relies on some preprocessing steps to generate rescaled GeoTIFFs and JPEGs for display.  
 
 ```
 # Get the first two rows of images for a date 
@@ -20,14 +23,4 @@ do
     gdal_translate -outsize 10% 10% $file small/2017-05-29/$dirname/$filename
     gdal_translate -of JPEG small/2017-05-29/$dirname/$filename small/2017-05-29/$dirname/$jpg.jpg
 done
-
-# Create VRT from input list
-gdalbuildvrt  -srcnodata "-99 -99 -99" -overwrite -input_file_list input_list_small_head.txt output_small_head.vrt
-
-# Create stitched GeoTIFF
-gdal_translate --config GDAL_CACHEMAX 999 output_small_head.vrt small_head.tif
-
-# Output PNG and JPG
-gdal_translate -of PNG -scale -co worldfile=yes small_head.tif small_head.png
-gdal_translate -of JPEG -scale -co worldfile=yes small_head.tif small_head.jpg
 ```
