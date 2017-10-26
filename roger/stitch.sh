@@ -20,7 +20,7 @@ fi
 
 # Set the output directory
 echo "Stitching $DATE"
-output=/projects/arpae/terraref/users/willis8/stitch/$DATE
+output=/projects/arpae/terraref/users/$USER/stitch/$DATE
 mkdir -p $output
 date
 
