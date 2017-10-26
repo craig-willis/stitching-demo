@@ -13,6 +13,11 @@ module load parallel
 
 cd $PBS_O_WORKDIR
 
+if [ -z $DATE ]; then
+  echo "Must specify date"
+  exit 1;
+fi 
+
 # Set the output directory
 echo "Stitching $DATE"
 output=/projects/arpae/terraref/users/willis8/stitch/$DATE
