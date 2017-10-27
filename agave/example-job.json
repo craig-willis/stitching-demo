@@ -1,0 +1,60 @@
+{
+  "id": "willis8-wordcount-1.0.0",
+  "name": "willis8-wordcount",
+  "icon": null,
+  "parallelism": "SERIAL",
+  "defaultProcessorsPerNode": 1,
+  "defaultMemoryPerNode": 1,
+  "defaultNodeCount": 1,
+  "defaultMaxRunTime": "00:10:00",
+  "defaultQueue": "batch",
+  "version": "1.0.0",
+  "isPublic": false,
+  "helpURI": "http://terraref.org/",
+  "label": "willis8 Word Count",
+  "owner": "willis8",
+  "shortDescription": "Counts words. Nuff 'said",
+  "longDescription": "Counts words.",
+  "tags": [],
+  "ontology": [],
+  "executionType": "HPC",
+  "executionSystem": "willis8.roger.ncsa",
+  "deploymentPath": "/home/willis8/agave-apps/wordcount",
+  "deploymentSystem": "willis8.roger-storage.ncsa",
+  "templatePath": "wrapper.sh",
+  "testPath": "test/test.sh",
+  "checkpointable": false,
+  "modules": [],
+  "inputs": [
+    {
+      "id": "file",
+      "value": {
+        "validator": ".*",
+        "visible": true,
+        "required": true,
+        "order": 0,
+        "enquote": false,
+        "default": [
+          "agave://willis8.roger.ncsa/sleep.log"
+        ]
+      },
+      "details": {
+        "label": "Plain text file",
+        "description": null,
+        "argument": null,
+        "showArgument": false,
+        "repeatArgument": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "maxCardinality": -1,
+        "ontology": [],
+        "fileTypes": [
+          "text-0"
+        ]
+      }
+    }
+  ],
+  "parameters": [],
+  "outputs": []
+}

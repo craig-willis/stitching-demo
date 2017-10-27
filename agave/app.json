@@ -1,0 +1,56 @@
+{
+  "id": "demo-image-stitching-0.1.0",
+  "name": "demo-image-stitching",
+  "icon": null,
+  "parallelism": "SERIAL",
+  "defaultProcessorsPerNode": 20,
+  "defaultMemoryPerNode": 1,
+  "defaultNodeCount": 1,
+  "defaultMaxRunTime": "00:30:00",
+  "defaultQueue": "batch",
+  "version": "0.1.0",
+  "isPublic": false,
+  "helpURI": "https://github.com/craig-willis/stitching-demo",
+  "label": "Image stitching demo",
+  "owner": "willis8",
+  "shortDescription": "Demonstrate image stitching using GDAL",
+  "longDescription": "Demonstrate image stitching using GDAL",
+  "tags": [],
+  "ontology": [],
+  "executionType": "HPC",
+  "executionSystem": "willis8.roger.ncsa",
+  "deploymentPath": "/home/willis8/agave-apps/stitching-demo",
+  "deploymentSystem": "willis8.roger-storage.ncsa",
+  "templatePath": "wrapper.sh",
+  "testPath": "test/test.sh",
+  "checkpointable": false,
+  "modules": [],
+  "inputs": [],
+  "parameters": [
+    {
+      "id": "DATE",
+      "value": {
+        "visible": true,
+        "required": true,
+        "type": "string",
+        "order": 0,
+        "enquote": false,
+        "default": "",
+        "validator": null
+      },
+      "details": {
+        "label": "Date",
+        "description": "This is the actual shell command you want to run",
+        "argument": "",
+        "showArgument": true,
+        "repeatArgument": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "maxCardinality": 1,
+        "ontology": []
+      }
+    }
+  ],
+  "outputs": []
+}

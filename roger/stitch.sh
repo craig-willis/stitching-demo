@@ -33,7 +33,7 @@ date
 # Use parallel with 20 cores to generate the thumbnails
 echo "CREATE THUMBNAILS"
 mkdir -p $output/thumbnail
-cat  $output/file_list.txt  | parallel -j 20 "./translate.sh {} $output"
+head -500  $output/file_list.txt  | parallel -j 20 "/home/willis8/stitching-demo/roger/translate.sh {} $output"
 date
 
 
