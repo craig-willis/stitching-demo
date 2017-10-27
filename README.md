@@ -6,7 +6,7 @@ The ``/agave`` directory contains the Agave application definition for the stitc
 
 ## Jupyter notebook
 
-The ``/jupyter`` directory contains a sample notebook demonstrating in-container exploratory analysis as well as launching the application on ROGER via the Agave CLI.
+The ``/jupyter`` directory contains a sample notebook demonstrating in-container exploratory analysis as well as launching the application on ROGER via the [Agave CLI](https://bitbucket.org/agaveapi/cli/).
 
 ## ROGER batch job
 
