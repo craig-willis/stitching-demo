@@ -1,0 +1,8 @@
+Bootstrap:docker
+From: terraref/terrautils
+
+
+%post
+   apt-get update -y
+   apt-get install parallel -y
+   mkdir /oasis

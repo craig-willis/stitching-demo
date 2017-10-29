@@ -1,0 +1,17 @@
+BootStrap: debootstrap
+OSVersion: xenial
+MirrorURL: http://us.archive.ubuntu.com/ubuntu/
+
+
+%runscript
+    echo "This is what happens when you run the container..."
+
+%post
+    apt-get update -y
+    apt-get -y install vim build-essential wget software-properties-common libpng-dev libjpeg8-dev python-dev gcc make wget byacc libfreetype6-dev libnetcdf-dev libhdf5-dev libblas-dev liblapack-dev libatlas-base-dev netcdf-bin 
+    add-apt-repository ppa:ubuntugis/ubuntugis-unstable 
+    apt-get update -y
+    apt-get install -y libgdal-dev gdal-bin python-gdal 
+
+    mkdir /oasis
+    mkdir /home
