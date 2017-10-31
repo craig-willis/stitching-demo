@@ -1,0 +1,24 @@
+{
+  "name":"stitch",
+  "appId":"comet-image-stitching-0.1.0",
+  "nodeCount": 1,
+  "processorsPerNode": 20,
+  "maxRunTime": "00:20:00",
+  "inputs":{
+    "dataset":[
+      "agave://$PUBLIC_STORAGE_SYSTEM/$API_USERNAME/inputs/pyplot/testdata.csv",
+      "agave://$PUBLIC_STORAGE_SYSTEM/$API_USERNAME/inputs/pyplot/testdata2.csv"
+    ]
+  },
+  "archive":false,
+  "parameters":{
+    "DATE":"2016-10-25"
+  },
+  "notifications":[
+    {
+      "url":"http://http://requestbin.agaveapi.co/o1aiawo1?job_id=${JOB_ID}&amp;status=${JOB_STATUS}",
+      "event":"*",
+      "persistent":true
+    }
+  ]
+}

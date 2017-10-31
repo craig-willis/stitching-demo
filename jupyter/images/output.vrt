@@ -1,0 +1,256 @@
+<VRTDataset rasterXSize="1302" rasterYSize="331">
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -1.1197486850798725e+02,  4.5677634692017934e-08,  0.0000000000000000e+00,  3.3076396676749184e+01,  0.0000000000000000e+00, -3.9130142852259259e-08</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <NoDataValue>-99</NoDataValue>
+    <ColorInterp>Red</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-27-331/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-27-331_left.jpg</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="350.851035467152" yOff="1.02170115902966" xSize="247.00002513784" ySize="328.999980770202" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-19-751/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-19-751_left.jpg</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="936.149260992994" yOff="0.17287261880964" xSize="246.999941448745" ySize="329.000044324776" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-22-761/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-22-761_left.jpg</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="703.341563020498" yOff="0.510484323581792" xSize="246.999974737716" ySize="329.000019084531" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-25-814/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-25-814_left.jpg</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="467.254883986732" yOff="0.852874969179778" xSize="247" ySize="329" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-21-253/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-21-253_left.jpg</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="819.74541185119" yOff="0.341675202674747" xSize="246.999958248786" ySize="329.00003197703" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-31-847/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-31-847_left.jpg</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="0" yOff="1.5305933497305" xSize="247.000075537964" ySize="328.999942455872" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-28-813/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-28-813_left.jpg</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="234.447187258684" yOff="1.19053315958349" xSize="247.000041937881" ySize="328.999968422456" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-30-341/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-30-341_left.jpg</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="117.809125939489" yOff="1.35971089702205" xSize="247.000058737923" ySize="328.999955711541" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-16-814/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-16-814_left.jpg</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="1055.36366590795" yOff="0" xSize="246.999924337591" ySize="329.000057035691" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-24-269/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-24-269_left.jpg</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="586.703501390192" yOff="0.679638273451078" xSize="247" ySize="329" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <NoDataValue>-99</NoDataValue>
+    <ColorInterp>Green</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-27-331/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-27-331_left.jpg</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="350.851035467152" yOff="1.02170115902966" xSize="247.00002513784" ySize="328.999980770202" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-19-751/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-19-751_left.jpg</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="936.149260992994" yOff="0.17287261880964" xSize="246.999941448745" ySize="329.000044324776" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-22-761/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-22-761_left.jpg</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="703.341563020498" yOff="0.510484323581792" xSize="246.999974737716" ySize="329.000019084531" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-25-814/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-25-814_left.jpg</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="467.254883986732" yOff="0.852874969179778" xSize="247" ySize="329" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-21-253/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-21-253_left.jpg</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="819.74541185119" yOff="0.341675202674747" xSize="246.999958248786" ySize="329.00003197703" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-31-847/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-31-847_left.jpg</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="0" yOff="1.5305933497305" xSize="247.000075537964" ySize="328.999942455872" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-28-813/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-28-813_left.jpg</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="234.447187258684" yOff="1.19053315958349" xSize="247.000041937881" ySize="328.999968422456" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-30-341/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-30-341_left.jpg</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="117.809125939489" yOff="1.35971089702205" xSize="247.000058737923" ySize="328.999955711541" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-16-814/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-16-814_left.jpg</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="1055.36366590795" yOff="0" xSize="246.999924337591" ySize="329.000057035691" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-24-269/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-24-269_left.jpg</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="586.703501390192" yOff="0.679638273451078" xSize="247" ySize="329" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <NoDataValue>-99</NoDataValue>
+    <ColorInterp>Blue</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-27-331/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-27-331_left.jpg</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="350.851035467152" yOff="1.02170115902966" xSize="247.00002513784" ySize="328.999980770202" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-19-751/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-19-751_left.jpg</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="936.149260992994" yOff="0.17287261880964" xSize="246.999941448745" ySize="329.000044324776" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-22-761/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-22-761_left.jpg</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="703.341563020498" yOff="0.510484323581792" xSize="246.999974737716" ySize="329.000019084531" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-25-814/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-25-814_left.jpg</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="467.254883986732" yOff="0.852874969179778" xSize="247" ySize="329" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-21-253/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-21-253_left.jpg</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="819.74541185119" yOff="0.341675202674747" xSize="246.999958248786" ySize="329.00003197703" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-31-847/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-31-847_left.jpg</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="0" yOff="1.5305933497305" xSize="247.000075537964" ySize="328.999942455872" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-28-813/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-28-813_left.jpg</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="234.447187258684" yOff="1.19053315958349" xSize="247.000041937881" ySize="328.999968422456" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-30-341/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-30-341_left.jpg</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="117.809125939489" yOff="1.35971089702205" xSize="247.000058737923" ySize="328.999955711541" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-16-814/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-16-814_left.jpg</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="1055.36366590795" yOff="0" xSize="246.999924337591" ySize="329.000057035691" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">2016-10-25/2016-10-25__10-21-24-269/rgb_geotiff_L1_ua-mac_2016-10-25__10-21-24-269_left.jpg</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="247" RasterYSize="329" DataType="Byte" BlockXSize="247" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="247" ySize="329" />
+      <DstRect xOff="586.703501390192" yOff="0.679638273451078" xSize="247" ySize="329" />
+      <NODATA>-99</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
