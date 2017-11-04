@@ -3,7 +3,7 @@
   "appId":"demo-image-stitching-0.1.0",
   "nodeCount": 1,
   "processorsPerNode": 20,
-  "maxRunTime": "00:20:00",
+  "maxRunTime": "00:40:00",
   "inputs":{
     "dataset":[
       "agave://$PUBLIC_STORAGE_SYSTEM/$API_USERNAME/inputs/pyplot/testdata.csv",
@@ -12,7 +12,7 @@
   },
   "archive":false,
   "parameters":{
-    "DATE":"2016-10-25"
+    "DATE":"2017-05-30"
   },
   "notifications":[
     {

@@ -1,0 +1,36 @@
+<PAMDataset>
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -1.1197486815755157e+02,  4.2152174544363195e-08,  0.0000000000000000e+00,  3.3076425494004575e+01,  0.0000000000000000e+00, -3.6109996700315468e-08</GeoTransform>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="COMPRESSION">JPEG</MDI>
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+    <MDI key="SOURCE_COLOR_SPACE">YCbCr</MDI>
+  </Metadata>
+  <Metadata>
+    <MDI key="AREA_OR_POINT">Area</MDI>
+    <MDI key="datetime">2017-05-30T09:49:41-07:00</MDI>
+    <MDI key="experiment_name">MAC Season 4: Border Plots, MAC Season 4: Short BAP Accessions, MAC Season 4: Medium BAP Accessions, MAC Season 4: Tall BAP Accessions, MAC Season 4: Biomass Association Panel</MDI>
+    <MDI key="extractor_author">Max Burnette &lt;mburnet2@illinois.edu&gt;</MDI>
+    <MDI key="extractor_description">Stereo RGB Image Bin to GeoTIFF Converter</MDI>
+    <MDI key="extractor_name">terra.stereo-rgb.bin2tif</MDI>
+    <MDI key="extractor_repo">https://github.com/terraref/extractors-stereo-rgb.git</MDI>
+    <MDI key="extractor_version">1.0</MDI>
+    <MDI key="sensor_id">stereo camera box</MDI>
+    <MDI key="sensor_url">http://terraref.ncsa.illinois.edu/clowder/api/datasets/5873a8ae4f0cad7d8131ac0e/metadata.jsonld</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
